@@ -28,6 +28,9 @@ export const NavigationBar = () => (
                     <Nav.Item><Nav.Link href="/About">About</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/Items">Items</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/Login">Login</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/Admin">Product Management</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/User">Admin Management</Nav.Link></Nav.Item>
+                    
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

@@ -6,6 +6,7 @@ import {User} from './User';
 import {Register} from './Register';
 import {NoMatch} from './NoMatch';
 import {Home} from './Home';
+import {Admin} from './Admin'
 import {About} from './About';
 import {Layout} from './components/Layout';
 import {NavigationBar} from './components/NavigationBar';
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/Login" component={Login}/>
           <Route exact path="/Register" component={Register}/>
           <Route exact path="/User" component={User}/>
+          <Route exact path="/Admin" component={Admin}/>
           <Route component={NoMatch}/>
         </Switch>
       </Router>
