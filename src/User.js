@@ -129,7 +129,7 @@ export class User extends Component{
           <div className="App container">
               <button type='button' className="button" onClick={this.logout}>Logout</button>  
               <a href="/Register">Register a new staff</a>
-              <h1>Admin account</h1>
+              <h1>Account Management</h1>
                     <Button className="my-3" color="primary" onClick={this.toggleNewItem.bind(this)}>Add User</Button>
                     <Modal isOpen={this.state.newUserModal} toggle={this.toggleNewItem.bind(this)}>
                     <ModalHeader toggle={this.toggleNewItem.bind(this)}>Add a new staff</ModalHeader>

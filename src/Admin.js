@@ -53,7 +53,7 @@ export class Admin extends Component{
     }
     addItem(){
         axios.post('https://cors-anywhere.herokuapp.com/https://polar-citadel-36392.herokuapp.com/items', this.state.newItemData).then((response)=>{
-            let {items: items} = this.state;
+            let {items} = this.state;
 
             items.push(response.data);
             

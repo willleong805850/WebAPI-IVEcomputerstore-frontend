@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import {PostData} from './services/PostData';
 import {Redirect} from 'react-router-dom';
-import {InputGroup, FormControl} from 'react-bootstrap';
 
 export class Login extends Component{
 
