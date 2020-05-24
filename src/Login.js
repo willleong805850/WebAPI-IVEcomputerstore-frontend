@@ -19,7 +19,7 @@ export class Login extends Component{
         if(this.state.email && this.state.password){
             PostData('auth', this.state).then((result)=>{
                 let responseJSON = result;
-                console.log(responseJSON);
+                //console.log(responseJSON);
                 if(responseJSON.token){
                     sessionStorage.setItem('token', responseJSON);
                     this.setState({redirect: true});
